@@ -1,0 +1,39 @@
+.about-container {
+    padding: 0 14px;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.about-image-container {
+    width: 11rem;
+    height: 11rem;
+    margin: 0 auto;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+
+.about-image {
+    width: 100%;
+    height: 100%;
+}
+
+.about-text {
+    line-height: 1.6;
+}
+
+.about-text-container a {
+    text-decoration: none;
+    border: 2px solid #4FBDBA;
+    padding: 0.5rem;
+    color: #4FBDBA;
+}
+
+.about-resume-button {
+    margin: 2rem;
+}
+
+hr {
+    border-bottom: none;
+    border-color: #4FBDBA;
+}
