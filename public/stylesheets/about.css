@@ -33,7 +33,49 @@
     margin: 2rem;
 }
 
-hr {
+.about-hr {
     border-bottom: none;
     border-color: #4FBDBA;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.services-heading {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 1.1px;
+}
+
+.services {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    color: #4FBDBA;
+    padding-bottom: 1rem;
+}
+
+.services-img {
+    height: 12rem;
+    width: 12rem;
+}
+
+.services p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    letter-spacing: 1.1px;
+}
+
+.services-stacks {
+    margin-bottom: 0;
+    color: grey
 }
