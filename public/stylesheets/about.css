@@ -36,13 +36,15 @@
 .about-hr {
     border-bottom: none;
     border-color: #4FBDBA;
+    width: 50%;
 }
 
 .services-container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    /* gap: 3rem; */
     align-items: center;
+
 }
 
 .services-heading {
@@ -54,12 +56,12 @@
 }
 
 .services {
-    background-color: black;
+    background-color: #35858B;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 50%;
-    color: #4FBDBA;
+    color: #072227;
     padding-bottom: 1rem;
 }
 
@@ -77,5 +79,34 @@
 
 .services-stacks {
     margin-bottom: 0;
-    color: grey
+    color: white
+}
+
+.works {
+    width: 90%;
+    /* background-image: url(../images/chows.png); */
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.works-hr {
+    margin-top: 3rem;
+}
+
+
+
+.works-img img {
+    height: 100%;
+    border: 2px solid yellow;
+
+}
+
+.works-container {
+    display: flex;
+    flex-direction: column;
+    /* gap: 3rem; */
+    align-items: center;
+
 }
