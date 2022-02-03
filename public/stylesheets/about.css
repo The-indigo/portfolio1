@@ -39,6 +39,11 @@
     width: 50%;
 }
 
+.fonts {
+    margin-top: 1.2rem;
+}
+
+
 .services-container {
     display: flex;
     flex-direction: column;
@@ -66,16 +71,16 @@
 }
 
 .services-img {
-    height: 12rem;
-    width: 12rem;
+    width: 25%;
 }
 
-.services p {
-    padding-left: 1rem;
-    padding-right: 1rem;
+.services-p {
     text-align: center;
+    line-height: 1.2;
     letter-spacing: 1.1px;
+
 }
+
 
 .services-stacks {
     margin-bottom: 0;
@@ -84,23 +89,17 @@
 
 .works {
     width: 90%;
-    /* background-image: url(../images/chows.png); */
-    /* border: 2px solid yellow; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    line-height: 1.5;
+    letter-spacing: 1.1px;
+    background-color: #01201f;
+    margin-bottom: 1rem;
+
 }
 
 .works-hr {
     margin-top: 3rem;
-}
-
-
-
-.works-img img {
-    height: 100%;
-    border: 2px solid yellow;
-
 }
 
 .works-container {
@@ -108,5 +107,9 @@
     flex-direction: column;
     /* gap: 3rem; */
     align-items: center;
+}
 
+.works-project-container {
+    display: flex;
+    justify-content: space-between;
 }
