@@ -1,3 +1,9 @@
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #05160a;
+}
+
 .logo-img {
     height: 30px;
     width: 30px;
@@ -7,6 +13,7 @@
 
 .navbar-container {
     padding: 0 10px;
+
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
