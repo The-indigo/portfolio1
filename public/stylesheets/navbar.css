@@ -1,0 +1,44 @@
+.logo-img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.navbar-container {
+    padding: 0 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: white;
+    margin-left: 13px;
+
+
+}
+
+.navbar-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #4FBDBA;
+    text-underline-offset: 5px;
+
+
+}
+
+.navbar-link-container {
+    padding-top: 30px;
+}
+
+@media screen and (min-width:800px) {
+    .navbar-container {
+        justify-content: space-evenly;
+    }
+
+    .navbar-link {
+        margin-left: 22px;
+
+    }
+}
