@@ -1,21 +1,134 @@
-<% if(title=='Home'){ %>
-<%- include('./home') %>
-<%} %>
+<!DOCTYPE html>
+<html lang="en">
 
-<% if(title=='About'){ %>
-<%- include('./about') %>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheets/about.css">
+  <link rel="stylesheet" href="stylesheets/navbar.css">
+  <script src="https://kit.fontawesome.com/ac8dc8b171.js" crossorigin="anonymous"></script>
+  <title><%- title %> </title>
+</head>
 
-<%} %>
+<body>
+  <%-include('./partials/navbar')%>
+  <div id="about-link" class="about-container">
+    <div class="about-image-container">
+      <img class="about-image" src="images/profile.png" alt="">
 
-<% if(title=='Projects'){ %>
-<%- include('./projects') %>
+    </div>
+    <div class="about-text-container">
+      <p class="about-text">Hi, I'm <span>Adeyemi</span>,lorem
+        ipsum Lorem ipsum dolor sit,
+        amet consectetur adipisicing elit. Reprehenderit eum culpa iure illo vel voluptatum voluptate voluptates
+        possimus ea. Enim impedit vitae ducimus rem consequuntur, temporibus eligendi voluptas doloribus
+        recusandae.
+      </p>
+      <div class="about-resume-button">
+        <a href="">View Resume</a>
+      </div>
+    </div>
+  </div>
 
-<%} %>
 
-<% if(title=='Services'){ %>
-<%- include('./services') %>
-<%} %>
+  <hr class="about-hr">
 
-<% if(title=='Contact'){ %>
-<%- include('./contact') %>
-<%} %>
+
+  <div class="services-container">
+    <h3 id="services-link">Services</h3>
+    <div class="services">
+      <h4 class="services-heading">Mobile Application Development</h4>
+      <img class="services-img" src="images/development.png" alt="mobile phone">
+      <p class="services-stacks">Stacks</p>
+      <p class="services-p"> Dart, Flutter, Firebase</p>
+
+
+    </div>
+
+    <hr class="about-hr">
+
+
+    <div class="services">
+      <h4 class="services-heading">Web Development</h4>
+      <img class="services-img" src="images/coding.png" alt="computer">
+      <p class="services-stacks">Stacks</p>
+      <p class="services-p">Html,Css,Javascript,
+        Express.js</p>
+
+    </div>
+  </div>
+
+
+  <hr class="works-hr about-hr">
+
+
+  <div id="works-link" class="works-container">
+    <h3>Works</h3>
+    <div class="works">
+      <p>Project:<Span> Chow's Delivery</span>
+      </p>
+      <div class="works-img">
+      </div>
+
+      <p> A food delivery mobile app
+        where users can place orders for their favourite meals
+        and get it delivered.
+        Solely written by me.
+      </p>
+      <div class="works-project-container">
+        <p>Ongoing Project</p>
+        <div class="fonts">
+          <i class="fab fa-github"></i>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="works">
+      <p>Project:<Span> Chow's Delivery</span>
+      </p>
+      <div class="works-img">
+      </div>
+
+      <p> A food delivery mobile app
+        where users can place orders for their favourite meals
+        and get it delivered.
+        Solely written by me.
+      </p>
+      <div class="works-project-container">
+        <p>Ongoing Project</p>
+        <div class="fonts">
+          <i class="fab fa-github"></i>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="works">
+      <p>Project:<Span> Chow's Delivery</span>
+      </p>
+      <div class="works-img">
+      </div>
+
+      <p> A food delivery mobile app
+        where users can place orders for their favourite meals
+        and get it delivered.
+        Solely written by me.
+      </p>
+      <div class="works-project-container">
+        <p>Ongoing Project</p>
+        <div class="fonts">
+          <i class="fab fa-github"></i>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <%-include('./partials/footer')%>
+
+</body>
+
+</html>
