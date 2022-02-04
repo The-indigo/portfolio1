@@ -16,7 +16,7 @@ body {
     width: 11rem;
     height: 11rem;
     margin: 0 auto;
-    border: 2px solid grey;
+    border: 1px solid grey;
     border-radius: 50%;
     margin-top: 2rem;
 }
@@ -27,8 +27,16 @@ body {
 
 }
 
+.about-image-container:hover {
+    border: solid 0.34rem rgba(255, 255, 255, 0.14);
+    background-clip: content-box;
+    transition: transform 0.6s ease;
+    transform: scale(1.2);
+}
+
 .about-text {
     line-height: 1.6;
+    letter-spacing: 1.1px;
     margin-top: 2rem;
 }
 
@@ -106,17 +114,13 @@ body {
 
 .works {
     width: 90%;
-    padding: 1.5rem;
     box-sizing: border-box;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 1.1px;
     background-color: #01201f;
     margin-bottom: 1rem;
+    position: relative;
 
-}
-
-.works-hr {
-    margin-top: 3rem;
 }
 
 .works-container {
@@ -126,7 +130,84 @@ body {
     align-items: center;
 }
 
+.works-content {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.works-hr {
+    margin-top: 3rem;
+}
+
+.works-image img {
+    width: 100%;
+    opacity: 0.5;
+}
+
 .works-project-container {
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (min-width:750px) {
+
+    html,
+    body {
+        height: 100%;
+    }
+
+    .about-container {
+        /* border: 2px solid yellow; */
+        display: flex;
+        height: 100%;
+        margin-top: 0;
+        justify-content: center;
+        align-items: center;
+        /* padding-bottom: 7rem; */
+
+
+    }
+
+    .about-text-container {
+        /* border: 2px solid red; */
+        width: 50%;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .about-image-container {
+        /* border: 2px solid blue; */
+        margin-bottom: 5rem;
+    }
+
+
+
+    .about-image-container {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .works {
+        display: flex;
+        /* border: 2px solid yellow; */
+        gap: 2rem;
+    }
+
+    .works-content {
+        width: 50%;
+        /* border: 2px solid red; */
+        /* margin: 0 auto; */
+    }
+
+    .works-image {
+        width: 50%;
+        /* border: 2px solid blue; */
+    }
+
+    .works-image img {
+
+        opacity: 0.5;
+        /* border: 2px solid blue; */
+    }
 }

@@ -39,7 +39,7 @@ nav {
     padding-top: 30px;
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:750px) {
     .navbar-container {
         justify-content: space-evenly;
     }
