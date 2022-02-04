@@ -59,3 +59,10 @@ html {
     line-height: 1.7;
     letter-spacing: 1px;
 }
+
+@media screen and (min-width:750px) {
+    .home-image {
+        height: 10rem;
+        width: 10rem;
+    }
+}

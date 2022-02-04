@@ -4,12 +4,17 @@ nav {
     background-color: #05160a;
 }
 
+
+
 .logo-img {
     height: 30px;
     width: 30px;
     border-radius: 50%;
     margin-top: 20px;
+    background-color: #4FBDBA;
+    border-radius: 50%;
 }
+
 
 .navbar-container {
     padding: 0 10px;

@@ -191,11 +191,28 @@ body {
     .works {
         display: flex;
         /* border: 2px solid yellow; */
-        gap: 2rem;
+        /* gap: 1rem; */
+        justify-content: center;
+        background-color: #072227;
+
+    }
+
+    .works-reverse {
+        flex-direction: row-reverse;
     }
 
     .works-content {
-        width: 50%;
+        width: 30%;
+        background-color: #01201f;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        box-sizing: border-box;
+        margin: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         /* border: 2px solid red; */
         /* margin: 0 auto; */
     }
