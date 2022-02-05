@@ -11,6 +11,10 @@ const services = document.querySelector('.services');
 works.classList.remove('works-transition');
 services.classList.remove('works-transition');
 
+/*observer to observe when the selector is in view on screen
+*to perform the animation
+*/
+
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
