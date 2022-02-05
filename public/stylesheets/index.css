@@ -123,6 +123,9 @@ h3 {
     color: #072227;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
+    /* animation */
+    opacity: 0;
+    transform: Scale(1.2);
 }
 
 .services-img {
@@ -150,6 +153,9 @@ h3 {
     background-color: #01201f;
     margin-bottom: 1rem;
 
+    /* animation */
+    opacity: 0;
+    transform: Scale(1.2);
     /* position: relative; */
 
 }
@@ -279,4 +285,18 @@ h3 {
         opacity: 0.5;
         /* border: 2px solid blue; */
     }
+}
+
+
+@media (prefers-reduced-motion:no-preference) {
+
+    .works,
+    .services {
+        transition: opacity 1s ease, transform 1.5s ease;
+    }
+}
+
+.works-transition {
+    opacity: 1;
+    transform: none;
 }

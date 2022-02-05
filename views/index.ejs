@@ -18,7 +18,9 @@
 
 <body>
   <%-include('./partials/navbar')%>
+
   <div id="about-link" class="about-container">
+
     <div class="about-image-container">
       <img class="about-image" src="images/profile.png" alt="">
 
@@ -42,9 +44,16 @@
   <hr class="about-hr">
 
   <a id="services-link"></a>
+
+
+
   <div class="services-container">
+
+
     <h3>Services</h3>
-    <div class="services">
+
+
+    <div class="services works-transition">
       <h4 class="services-heading">Mobile Application Development</h4>
       <img class="services-img" src="images/development.png" alt="mobile phone">
       <p class="services-stacks">Stacks</p>
@@ -53,7 +62,7 @@
 
     </div>
 
-    <div class="services">
+    <div class="services works-transition">
       <h4 class="services-heading">Web Development</h4>
       <img class="services-img" src="images/coding.png" alt="computer">
       <p class="services-stacks">Stacks</p>
@@ -70,76 +79,99 @@
   <div class="works-container">
     <h3>Works</h3>
 
-    <div class="works">
-      <div class="works-image">
-        <img src="images/cart.png" alt="">
-      </div>
 
-      <div class="works-content">
-        <p>Project:<Span class="works-name"> Firebase Cart Cloud Functions</span>
-        </p>
-        <p class="works-description"> Firebase cloud functions that perform specific actions related
-          to a shopping cart, adding to cart, calculating total amount, performing actions in
-          the databse when an action is triggered. Written solely by me in typescript.
-        </p>
-        <div class="works-project-container">
-          <p></p>
-          <div class="fonts">
-            <a href="https://github.com/The-indigo/cart-firebase" target="blank"><i class="fab fa-github"></i></a>
+
+
+    <div class="works-wrapper">
+
+
+
+      <div class="works works-transition">
+        <div class="works-image">
+          <img src="images/cart.png" alt="">
+        </div>
+
+        <div class="works-content">
+          <p>Project:<Span class="works-name"> Firebase Cart Cloud Functions</span>
+          </p>
+          <p class="works-description"> Firebase cloud functions that perform specific actions related
+            to a shopping cart, adding to cart, calculating total amount, performing actions in
+            the databse when an action is triggered. Written solely by me in typescript.
+          </p>
+          <div class="works-project-container">
+            <p></p>
+            <div class="fonts">
+              <a href="https://github.com/The-indigo/cart-firebase" target="blank"><i class="fab fa-github"></i></a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
+      <div class="works works-reverse works-transition">
+        <div class="works-image">
+          <img src="images/space.png" alt="">
+        </div>
 
-    <div class="works works-reverse">
-      <div class="works-image">
-        <img src="images/space.png" alt="">
-      </div>
-
-      <div class="works-content">
-        <p>Project:<Span class="works-name"> Space Tourism Website</span>
-        </p>
-        <p class="works-description"> Static html and css pages challenge from frontend mentors to solidify my
-          understanding
-          of basic html and css positioning and layout. Non responsive, Served only for desktop screens.
-        </p>
-        <div class="works-project-container">
-          <p></p>
-          <div class="fonts">
-            <a href="https://github.com/The-indigo/spcetravel" target="blank"><i class="fab fa-github"></i></a>
+        <div class="works-content">
+          <p>Project:<Span class="works-name"> Space Tourism Website</span>
+          </p>
+          <p class="works-description"> Static html and css pages challenge from frontend mentors to solidify my
+            understanding
+            of basic html and css positioning and layout. Non responsive, Served only for desktop screens.
+          </p>
+          <div class="works-project-container">
+            <p></p>
+            <div class="fonts">
+              <a href="https://github.com/The-indigo/spcetravel" target="blank"><i class="fab fa-github"></i></a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="works">
-      <div class="works-image">
-        <img src="images/cho.png" alt="">
-      </div>
 
-      <div class="works-content">
-        <p>Project:<Span class="works-name"> Chow's Delivery</span>
-        </p>
-        <p class="works-description"> A food delivery mobile app
-          where users can place orders for their favourite meals
-          and get it delivered.
-          Solely written by me with flutter.
-        </p>
-        <div class="works-project-container">
-          <p>Ongoing Project</p>
-          <div class="fonts">
-            <a href="https://github.com/The-indigo/chows-delivery" target="blank"><i class="fab fa-github"></i></a>
+
+
+      <div class="works works-transition">
+        <div class="works-image">
+          <img src="images/cho.png" alt="">
+        </div>
+
+        <div class="works-content">
+          <p>Project:<Span class="works-name"> Chow's Delivery</span>
+          </p>
+          <p class="works-description"> A food delivery mobile app
+            where users can place orders for their favourite meals
+            and get it delivered.
+            Solely written by me with flutter.
+          </p>
+          <div class="works-project-container">
+            <p>Ongoing Project</p>
+            <div class="fonts">
+              <a href="https://github.com/The-indigo/chows-delivery" target="blank"><i class="fab fa-github"></i></a>
+            </div>
           </div>
         </div>
       </div>
+
+
     </div>
+
+
+
+  </div>
+
+
+
+
+  </div>
 
 
   </div>
 
 
   <%-include('./partials/footer')%>
+
+  <script src="javascripts/observer.js"></script>
 
 </body>
 
