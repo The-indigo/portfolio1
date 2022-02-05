@@ -3,6 +3,9 @@ nav {
     top: 0;
     width: 100%;
     background-color: #05160a;
+    font-family: 'Arvo',
+        serif;
+    font-size: small;
 }
 
 
@@ -11,7 +14,7 @@ nav {
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: #4FBDBA;
     border-radius: 50%;
 }
@@ -42,7 +45,7 @@ nav {
 }
 
 .navbar-link-container {
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 @media screen and (min-width:750px) {
