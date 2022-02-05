@@ -38,6 +38,21 @@ html {
     margin-top: 1.4rem
 }
 
+.contact-info {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.fab {
+    text-decoration: none;
+    color: #4FBDBA;
+    margin-right: 4rem;
+}
+
+.fab:hover {
+    color: grey;
+}
+
 textarea:focus,
 input:focus {
     outline: none;
