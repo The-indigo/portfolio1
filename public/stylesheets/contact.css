@@ -28,8 +28,6 @@ html {
     padding-right: 1rem;
     text-align: center;
     margin-top: 1.4rem
-        /* justify-content: center;
-    border: 2px solid yellow; */
 }
 
 textarea:focus,
@@ -60,6 +58,6 @@ label {
 @media screen and (min-width:750px) {
     .contact-form {
         width: 40%;
-        margin: 4rem auto;
+        margin: 5rem auto 0 auto;
     }
 }

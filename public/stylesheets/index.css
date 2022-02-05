@@ -71,6 +71,12 @@ body {
     margin-top: 1.2rem;
 }
 
+.fab {
+    text-decoration: none;
+    color: white;
+}
+
+
 
 .services-container {
     display: flex;
@@ -123,7 +129,8 @@ body {
     letter-spacing: 1.1px;
     background-color: #01201f;
     margin-bottom: 1rem;
-    position: relative;
+
+    /* position: relative; */
 
 }
 
@@ -132,6 +139,7 @@ body {
     flex-direction: column;
     /* gap: 3rem; */
     align-items: center;
+    margin-top: 3rem;
 }
 
 .works-content {
@@ -141,6 +149,14 @@ body {
 
 .works-hr {
     margin-top: 3rem;
+}
+
+#works-link,
+#services-link {
+    display: block;
+    position: relative;
+    top: -55px;
+    visibility: hidden;
 }
 
 .works-image img {

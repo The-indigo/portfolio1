@@ -7,6 +7,18 @@ html {
     height: 100%;
 }
 
+dfn {
+    font-family: 'Arvo',
+        serif;
+    font-size: large;
+    color: #4FBDBA;
+}
+
+.home-content p {
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 0.89rem;
+}
 
 .home-container {
     display: flex;
@@ -42,6 +54,9 @@ html {
 .welcome-button {
     text-decoration: none;
     color: #4FBDBA;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 0.7rem;
 }
 
 .welcome-button:hover {

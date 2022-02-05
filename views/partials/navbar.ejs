@@ -4,11 +4,18 @@
             <img class="logo-img" src="images/wave.png" alt="Logo">
         </div>
         <div class="navbar-link-container">
+            <% if (title=='Contact'){  %>
             <a class="navbar-link" href="/">Home</a>
             <a class="navbar-link" href="about">About</a>
-            <a class="navbar-link" href="services">Services</a>
-            <a class="navbar-link" href="projects">Works</a>
+            <a class="navbar-link" href="about#services-link">Services</a>
+            <a class="navbar-link" href="about#works-link">Works</a>
+            <% } else {%>
+            <a class="navbar-link" href="/">Home</a>
+            <a class="navbar-link" href="#about-link">About</a>
+            <a class="navbar-link" href="#services-link">Services</a>
+            <a class="navbar-link" href="#works-link">Works</a>
             <a class="navbar-link" href="contact">Contact</a>
+            <% } %>
         </div>
     </div>
 
