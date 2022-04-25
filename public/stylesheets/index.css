@@ -95,7 +95,8 @@ body {
     margin-top: 1.2rem;
 }
 
-.fab {
+.fab,
+.fa {
     text-decoration: none;
     color: white;
 }
