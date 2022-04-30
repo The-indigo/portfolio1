@@ -162,7 +162,8 @@ h3 {
     letter-spacing: 1.1px;
     background-color: #01201f;
     margin-bottom: 1rem;
-
+    /* border: 2px solid blue; */
+    flex: 1;
     /*********************** animation ***********************/
     opacity: 0;
     transform: Scale(1.2);
@@ -185,6 +186,7 @@ h3 {
 .works-content {
     width: 94%;
     margin: 0 auto;
+    min-height: 10rem;
 }
 
 .works-description {
@@ -209,6 +211,11 @@ h3 {
     font-family: 'Montserrat',
         sans-serif;
 
+}
+
+.works-image {
+    /* border: 2px solid yellow; */
+    align-self: flex-start;
 }
 
 .works-image img {
