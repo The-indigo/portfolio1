@@ -32,7 +32,6 @@ body {
 
 .about-image {
     width: 90%;
-    /* height: 100%; */
 }
 
 .about-image-container:hover {
@@ -219,6 +218,10 @@ h3 {
 .works-image img {
     width: 100%;
     opacity: 0.5;
+}
+
+.works-image img:hover {
+    opacity: 1
 }
 
 .works-project-container {
