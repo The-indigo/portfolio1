@@ -108,14 +108,7 @@ h3 {
     text-align: center;
 }
 
-/* .services-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-} */
 .services-div {
-    /* border: 2px solid yellow; */
     padding: 0 1rem;
 }
 
@@ -128,14 +121,9 @@ h3 {
 }
 
 .services {
-    /* border: 2px solid red; */
     background-color: #35858B;
-    /* display: flex;
-    flex-direction: column; */
-    /* align-items: center; */
-    /* width: 50%; */
     color: #072227;
-    padding-bottom: 1rem;
+    padding: 1rem 0;
     margin-bottom: 1rem;
     /*********************** animation ***********************/
     opacity: 0;
